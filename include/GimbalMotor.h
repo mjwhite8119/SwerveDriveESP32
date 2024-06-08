@@ -16,6 +16,7 @@ MagneticSensorI2C sensor = MagneticSensorI2C(AS5600_I2C); // Use the AS5600 magn
 
 // BLDC motor & driver instance
 BLDCMotor motor = BLDCMotor(7); // Gimbal motor
+
 // BLDCDriver3PWM driver = BLDCDriver3PWM(9, 5, 6, 8);
 
 #define STOPPED 2
